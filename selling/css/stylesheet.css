@@ -1,0 +1,140 @@
+body
+{
+    background-color:whitesmoke;
+    height: 1000px;
+}
+.container 
+{
+    width: 1170px;
+    margin: auto;
+}
+.header
+{
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+.header ul
+{
+    list-style: none;
+    padding-left: 0%;
+    overflow: hidden;
+    float: right;
+}
+.header h2
+{
+    float: left;
+}
+.header h2 span
+{
+    color: turquoise;
+}
+.header ul li
+{
+    float: left;
+    padding: 10px 0px;
+    margin: 0px 10px;
+    border-bottom: 2px solid transparent;
+    font-weight: bold;
+    display: inline-block;
+}
+.header li a
+{
+    color: white;
+    text-decoration: none;
+}
+.navbar li.active a,
+.navbar li a:hover
+{
+    color: white;
+}
+.header li.active,
+.header li:hover
+{
+    border-bottom: 2px solid turquoise;
+}
+h1
+{
+    text-align: center;
+    padding: 45px;
+}
+.dog-shop , .cat-shop , .fish-shop , .birds-shop 
+{
+    width: 100%;
+    max-width: 120%;
+}
+.pets .german , .husky , .golden , .british ,.scottish , .kitten ,.gold , .butterfly, .Ocellaris, .Budgerigar ,.Cockatiel , .Canary
+{
+    float: left;
+    padding-left: 120px;
+}
+.pets img
+{
+    margin: 20px 0px 0px 10px ;
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    border-radius: 180%;
+  }
+.pets p
+  {
+    margin: 20px 0px 6px 25px ;
+    line-height: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .pets .button-effect
+  {
+      margin: 20px 0px 40px 70px ;
+      width: 100px;
+      height: 30px;
+      color: white;
+      background-color: #1e272e;
+      overflow: hidden;
+      position: relative;
+  }
+.button-effect.from-left span:first-child
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 30px;
+    display: block;
+    background-color: #ff3f34;
+    z-index: 1;
+
+}
+.button-effect.from-left span:last-child
+{
+    position: relative;
+    z-index: 2;
+}
+
+  .logos
+  {
+      background-color: black;
+      padding: 20px 0px;
+      text-align: center;
+  }
+  .logos span
+  {
+      color: white;
+  }
+  .logos ul
+  {
+      list-style: none;
+      padding-left: 0px;
+      margin: 10px 0px 0px;
+  }
+  .logos ul li
+  {
+      display: inline-block;
+  }
+  .logos ul li img
+  {
+      width: 24px;
+  }
+  .clearfix
+  {
+      clear: both;
+  }

@@ -1,0 +1,244 @@
+* 
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+body
+{
+    background-color:whitesmoke;
+}
+.container 
+{
+    width: 1200px;
+    margin: auto;
+}
+ul 
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/* Start Navbar */
+.navbar
+{
+    font-size: 20px;
+    height: 0;
+    position: relative;
+    z-index: 2;
+}
+.navbar .brand
+{
+    float: left;
+}
+.navbar .brand h2
+{
+    color: white;
+}
+.navbar .brand span
+{
+    color: turquoise;
+}
+.navbar .links
+{
+    float: left;
+    margin-top: 15px;
+    margin-left: 700px;
+}
+.navbar .links li
+{
+    display: inline-block;
+    padding: 10px 0px ;
+    margin: 0px 10px;
+    border-bottom: 2px solid transparent;
+    font-weight: bold;
+    color: white;
+}
+.navbar .links li a
+{
+    color: white;
+    text-decoration: none;
+}
+.navbar .links li.active a,
+.navbar .links li a:hover
+{
+    color: white;
+}
+.navbar .links li.active,
+.navbar .links li:hover
+{
+    border-bottom: 2px solid turquoise;
+}
+/* End Navbar */
+/* Start Header */
+.header 
+{
+    background: url(../images/header/image-1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+
+}
+/* End Header */
+/* Start Pets*/
+.pets
+{
+    height: 700px;
+    padding-top: 20px;
+}
+.pets 
+{
+    background-image: url(../images/image-2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+.pets h1
+{
+    text-align: center;
+    color: white;
+}
+.pets h1 span
+{
+    color: turquoise;
+    font-weight: bolder;
+}
+.pets .dogs , .cats , .birds , .fishes
+{
+    float: left;
+    padding-left: 120px;
+    padding-top: 140px;
+    
+}
+.pets img
+{
+    margin-top: 20px;
+    margin-left: 8px;
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+  }
+  .pets p
+  {
+      margin-left: 68px;
+      padding-bottom: 20px;
+      color: white;
+  }
+/* End Pets */
+
+
+/* Start About */
+.about
+{
+    height: 700px;
+    padding-top: 20px;
+}
+.about 
+{
+    background-image: url(../images/image-3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+.about p 
+{
+    font-size: 25px;
+    font-weight: 900px;
+    color: white;
+    margin-left: 40px;
+    padding-top: 200px;
+    line-height:1.7 ;
+}
+.about p span
+{
+    color: turquoise;
+}
+
+/* End About */
+/* Star Contact */ 
+/* Start Contact Us */
+.contact
+{
+    height: 700px;
+    padding-top: 20px;   
+}
+.contact
+{
+    background-image: url(../images/image-4.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;  
+}
+.contact .info 
+{
+    width: 50%;
+    margin-right: 5%;
+    float: left;
+}
+.contact h1
+{
+    font-size: 40px;
+    font-style: italic;
+    color: white;
+    padding-top: 140px;
+
+}
+.contact h1 span
+{
+    color: turquoise;
+}
+.contact p
+{
+    margin-left: 40px;
+    line-height: 1.7;
+    color: white;
+    font-weight: bolder;
+}
+.contact .mails 
+{
+    width: 45%;
+    float: left;
+}
+
+.contact .mails label
+{
+    display: block;
+    margin: 20px 0 10px ;
+    color: white;
+}
+.contact .mails input 
+{
+    border: 0;
+    width: 80%;
+}
+.contact .mails textarea 
+{
+    border: 0;
+    width: 80%;
+    height: 100px;
+}
+.contact .mails button 
+{
+    background-color:white;
+    padding: 10px 210px;
+    border: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+/* End Contact */
+
+
+
+/* start clear fix */
+.clearfix
+{
+    clear: both;
+}
+/* end clear fix */
